@@ -1,0 +1,86 @@
+﻿@model Assignment4.Models.CrimeRecord
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<title>About Us</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2white>
+            FBI Crimes by Offense and Year: About Us
+        </h2white>
+        <hr>
+        <pWhite>
+            Project by Vamshidhar Reddy Roop Reddy and Andres Zambrano
+        </pWhite>
+        <div class="header-right">
+            <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-area="" asp-controller="Home" asp-action="mainpage">Main Page</a>
+            <a class="active" asp-area="" asp-controller="Home" asp-action="aboutUs">About Us</a>
+        </div>
+    </div>
+    <div class = "container" style = "height:20%"></div>
+    <div class="container">
+        <h3>This is an interactive and data-driven website that shows the information about the crimes that occur in the state of California. The data is pulled from an API to populate the master table as well as we have integrated CRUD operations that allows the user to add, read, update, and delete data that is relevant to the application. We have also designed a chart that helps visualize the information in the website. Ultimately, the website has been deployed to a cloud platform, so it can be accessed worldwide.</h3>
+        <br />
+        <br/>
+        <div class="row">
+            <div class="column">
+                <img src="~/Img/Vamshi.jpeg" alt="Vamshi" style="width:70%">
+                <div class="subcontainer">
+                    <h2black>Vamshidhar Reddy</h2black>
+                    <p style="font-size: 18px">
+                        Graduate student pursuing a master’s in Business Analytics and Information Systems at University of South Florida. He is passionate about software development and aspire to become a developer after graduation. He is responsible for developing the web application, integrating an API to pull data, and web design.  
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="~/Img/Andres.jpeg" alt="Andres" style="width:70%">
+                <div class="subcontainer">
+                    <h2black>Andres Zambrano</h2black>
+                    <p style="font-size: 18px">
+                        Graduate student pursuing a master’s in Business Analytics and Information Systems at University of South Florida. He is passionate about data science and aspire to become a program manager for a technology company after graduation. He is responsible for the data modeling and ERD diagram, and designing charts.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+        <div>
+        <br />
+        <h2black>Data Model</h2black>        
+        <br />
+        <a href="https://api.usa.gov/crime/fbi/sapi/api/summarized/state/CA/aggravated-assault/2019/2020?API_KEY=sI8uFDbzdWysJWrRUOzKtdQ4fFw3T5XgQndkdS40" target="_blank">Link to API.</a>
+        <br />
+        <p>Our data model is referenced from the FBI's given data diagram. For our assignment, we want to look at the total number of arrests by the type of offense and year.</p>
+        <br />
+        <img src="~/Img/FBI_ERD.jpeg" asp-append-version="true">
+        <br />
+        <h2black>API Endpoints</h2black>
+        <br />
+        <a href="https://crime-data-explorer.fr.cloud.gov/api" target="_blank">List of FBI Crime Data's APIs</a>
+        <br />
+        <p>The FBI Crime Data Explorer offers several extentions to their API for information on arrests and offenders that can be used for our project's data.</p>
+        <br />
+        <h2black>GitHub Link</h2black>
+        <br />
+        <a href=# target="_blank">Click here for the team's repository</a>
+        <br />
+    </div>
+    </div>
+    <div class="container" style="height:10%"></div>
+
+
+
+    <div class="footer">
+        <pWhite>Copyright &#169 May 2022 | ISM 6225 | USF</pWhite>
+    </div>
+</body>
+</html>

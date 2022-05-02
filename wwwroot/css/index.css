@@ -1,0 +1,190 @@
+﻿
+* {
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.header-logo {
+    width: 100%;
+    background-color: #9a9a9a;
+    height: 100px;
+    background-image: url('../images/sports-banner-cricket_71662810492.jpg');
+    background-size: cover;
+}
+
+.heading {
+    padding: 10px 10px 0px 40px;
+    float: left;
+}
+
+.heading-first {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading-second {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: forestgreen;
+}
+
+.sub-heading {
+    padding-left: 80px;
+    float: none;
+    clear: both;
+}
+
+.sub-heading-text {
+    font-size: 16px;
+    font-style: italic;
+    color: #007787;
+}
+
+
+.navigation {
+    text-align: right;
+    font-size: 12px;
+    padding-top: 60px;
+}
+
+    .navigation ul {
+        list-style: none;
+        list-style-position: outside;
+    }
+
+        .navigation ul li {
+            display: inline;
+            padding: 0 11px 0 6px;
+        }
+
+            .navigation ul li.last {
+                background: transparent;
+                padding-right: 0;
+            }
+
+    .navigation li a {
+        color: white;
+        font-weight: bolder;
+    }
+
+        .navigation li a:hover,
+        .navigation li.active a {
+            color: white;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+
+.matches {
+    width: 100%;
+    height: 10%;
+    padding: 5px 0px 5px 0px;
+}
+
+.live-matches {
+    width: 26%;
+    margin:1%;
+    /*padding: 5px 10px 5px 10px;*/
+    text-align: center;
+    vertical-align: middle;
+    /*border: 0.5px solid green;*/
+    border-left: 3px solid green;
+
+    float: left;
+}
+
+.past-matches {
+    width: 26%;
+    margin:1%;
+    /*padding: 5px 10px 5px 10px;*/
+    text-align: center;
+    vertical-align: middle;
+    /*border: 0.5px solid red;*/
+    border-left: 3px solid red;
+    
+    
+    float: left;
+}
+
+.upcoming-matches {
+    width: 26%;
+    margin:1%;
+    /*padding: 5px 10px 5px 10px;*/
+    text-align: center;
+    vertical-align: middle;
+     /*border: 0.5px solid orange;*/
+    border-left: 3px solid orange;
+    
+    float: left;
+}
+
+.match-score-text{
+    padding:2px 2px 2px 2px;
+    overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+    
+}
+
+.score-div{
+    padding:5px 10px;
+}
+
+.match-link{
+    text-decoration:none;
+}
+
+.h2{
+    padding-left:10px;
+    font-size:30px;
+    color:#228b22
+}
+
+.section{
+    padding: 0 10%;
+}
+
+.clear{
+    clear:both;
+}
+
+.story {
+    width: 100%;
+    margin:1%;
+    text-align: left;
+    border-left: 3px solid #b9b9b9;
+    
+}
+
+.story .story-title{
+    margin:0.5%;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.story .story-content{
+    padding:1%;
+    font-size:15px;
+    color:#8d8d8d
+}
+
+    .story .story-title a {
+        text-decoration:none;
+        color:#454545
+    }
+
+    .footer{
+        width: 100%;
+        background-color: #b4b5b0;
+        height: 10%;
+    }
+
+    .footer-info{
+        color:black;
+        padding: 15px 10px 15px 20px;
+    }
